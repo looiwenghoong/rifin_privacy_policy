@@ -97,17 +97,41 @@
     font-style: italic;
 }
 
-.about-section {
-    background: var(--color-background);
-    padding: 32px;
-    border-radius: var(--radius-lg);
-    margin-top: 64px;
-}
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+    .content-page {
+        padding-top: 84px;
+        padding-bottom: 40px;
+    }
 
-.about-section h3 {
-    margin-top: 0;
-}
+    .page-header {
+        margin-bottom: 32px;
+    }
 
-.about-section p {
-    margin-bottom: 0;
+    .page-header h1 {
+        font-size: 2rem;
+    }
+
+    .page-header .subtitle {
+        font-size: 1rem;
+    }
+
+    .content-section h2 {
+        font-size: 1.5rem;
+        margin-top: 32px;
+    }
+
+    .content-section h3 {
+        font-size: 1.25rem;
+        margin-top: 24px;
+    }
+
+    .contact-email {
+        font-size: 1.125rem;
+    }
+
+    .faq-item {
+        margin-bottom: 24px;
+        padding-bottom: 24px;
+    }
 }
